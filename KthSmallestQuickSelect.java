@@ -16,9 +16,9 @@ import java.util.concurrent.ThreadLocalRandom;
   //Example: kth Smallest/largest element, Find median of unsorted array 
 
 public class Main {
-
-  //Returns the kthSmallestElement in an array
-  //Returns Integer's lowest value if k is out of range (this is upto your implementation)
+	
+  	//Returns the kthSmallestElement in an array
+  	//Returns Integer's lowest value if k is out of range (this is upto your implementation)
 	public static int kthSmallestElement(int[] arr, int k){
 		int low = 0, high = arr.length-1;
 
