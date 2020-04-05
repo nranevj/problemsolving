@@ -2,12 +2,12 @@ import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
   //Focusing on kth smallest element problem, it has three solutions:
-  //Sort the array and return arr[k-1] takes O(n log n) time
-  //Use MaxHeap of size k and go on adding elements (heap will remove elements if size>k,
+  //1. Sort the array and return arr[k-1] takes O(n log n) time
+  //2. Use MaxHeap of size k and go on adding elements (heap will remove elements if size>k,
   //Eventually, after adding all elements, the first element in the maxheap will be the answer
   //This will take O(n log k) for adding all elements in maxheap. Worst case if k=n, it will take O(n log n) time
 
-  //One of the common applications of quickselect algorithm:
+  //3. QuickSelect. One of the common applications of quickselect algorithm:
   //Given an unsorted array and a position, find the element at that position (if array was sorted)
   //Quickselect doesn't care about sorting the whole array
   //It only uses the partitioning step of Quicksort to randomly select a pivot and parition elements around it
