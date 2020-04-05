@@ -41,7 +41,7 @@ class MSSSolution{
 		return Math.max(Math.max(maxMSS, sum), leftsum + rightsum);
 	}
 	
-	//Kadane's algorithm is a specific algorithm solution to this problem that runs in O(n) time
+	//Kadane's algorithm is a specific algorithm/solution to this problem that runs in O(n) time
 	//Take 0th index number as the maxSum initially
 	//Start from the 1st index, and check whether the previous element is greater than 0
 	//If yes, then it is going to increase total value. Do arr[currentindex] = arr[currentindex] + arr[currentindex-1];
