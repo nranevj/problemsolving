@@ -10,7 +10,7 @@ class PairString{
 	}
 }
 
-class largestItemAssociationSolution{
+class LargestItemAssociationSolution{
 
 	//You may add your test cases here in the form of PairString objects
 	//and add them to the List<PairString>
